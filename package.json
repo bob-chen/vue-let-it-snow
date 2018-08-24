@@ -1,0 +1,47 @@
+{
+  "name": "vue-let-it-snow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/vue-let-it-snow.umd.js",
+  "module": "dist/vue-let-it-snow.esm.js",
+  "unpkg": "dist/vue-let-it-snow.min.js",
+  "browser": {
+    "./sfc": "src/vue-let-it-snow.vue"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "npm run build:unpkg & npm run build:es & npm run build:umd",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-let-it-snow.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-let-it-snow.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-let-it-snow.min.js"
+  },
+  "dependencies": {
+    "vue": "^2.4.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "minimist": "^1.2.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-uglify-es": "0.0.1",
+    "rollup-plugin-vue": "^3.0.0",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.4.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
