@@ -44,14 +44,6 @@ export default {
         show: false      
     }
   },
-  methods: {
-      showCommentDialog: function() {
-          this.isDialogShow = true;
-      },
-      closeCommentDialog: function() {
-          this.isDialogShow = false;
-      }
-  },
   mounted () {
       this.show = true
     //   setTimeout( () => {
