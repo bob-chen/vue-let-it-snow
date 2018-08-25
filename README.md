@@ -5,6 +5,10 @@ Remove the dependance of jQuery, and support fall down multiple image.
 
 [![Vue Let it Snow](https://raw.githubusercontent.com/bob-chen/vue-let-it-snow/master/demo/demo.jpg "Vue Let it Snow")](https://github.com/bob-chen/vue-let-it-snow)
 
+# Demo
+
+[View Demo](http://imbeta.cn/demo/vue-let-it-snow/)
+
 # Basic Usage
 
 Install:
