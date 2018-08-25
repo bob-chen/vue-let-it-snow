@@ -1,12 +1,11 @@
-var path = require('path')
-var webpack = require('webpack')
+const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
     entry: './demo/main.js',
-    // entry: './index.js',
     output: {
-        path: path.resolve(__dirname, './dist'),
-        publicPath: '/dist/',
+        path: path.resolve(__dirname, './demo-dist'),
+        publicPath: '/demo-dist/',
         filename: 'build.js'
     },
 
@@ -84,8 +83,9 @@ module.exports = {
     performance: {
         hints: false
     },
-    devtool: '#eval-source-map'
+    devtool: '#eval-source-map',
 }
+
 
 if (process.env.NODE_ENV === 'production') {
     module.exports.devtool = '#source-map'
@@ -102,8 +102,8 @@ if (process.env.NODE_ENV === 'production') {
         //         warnings: false
         //     }
         // }),
-        // new webpack.LoaderOptionsPlugin({
-        //     minimize: true
-        // })
+        new webpack.LoaderOptionsPlugin({
+            minimize: true
+        })
     ])
 }

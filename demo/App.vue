@@ -27,13 +27,8 @@
 
 <script>
 
-// import LetItSnow from '../src/vue-let-it-snow';
-
 export default {
   name: 'app',
-  // components: {
-  //   // LetItSnow
-  // },
   data () {
   	return {
         snowConf: {
