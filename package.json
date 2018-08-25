@@ -1,7 +1,25 @@
 {
   "name": "vue-let-it-snow",
   "version": "1.0.0",
-  "description": "",
+  "description": "The vue component for let-it-snow.js.Remove the dependance of jQuery, and support fall down multiple image.",
+  "keywords": [
+    "let it snow",
+    "vue",
+    "vue.js",
+    "component",
+    "components",
+    "fall down",
+    "canvas"
+  ],
+  "author": "Bob.Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bob-chen/vue-let-it-snow"
+  },
+  "bugs": {
+    "url": "https://github.com/bob-chen/vue-let-it-snow/issues"
+  },
   "main": "dist/vue-let-it-snow.umd.js",
   "module": "dist/vue-let-it-snow.esm.js",
   "unpkg": "dist/vue-let-it-snow.min.js",

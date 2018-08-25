@@ -122,41 +122,34 @@ module.exports = g;
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-    name: 'app',
-    data() {
-        return {
-            snowConf: {
-                windPower: 1,
-                speed: 3,
-                count: 12,
-                size: 10,
-                opacity: 1,
-                images: ['https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/snow.png', 'https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/sock.png', 'https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/tree.png']
-            },
-            show: false
-        };
-    },
-    methods: {
-        showCommentDialog: function () {
-            this.isDialogShow = true;
-        },
-        closeCommentDialog: function () {
-            this.isDialogShow = false;
-        }
-    },
-    mounted() {
-        this.show = true;
-        //   setTimeout( () => {
-        //       this.show = false
-        //   }, 5000)
+  name: 'app',
+  data() {
+    return {
+      snowConf: {
+        windPower: 1,
+        speed: 3,
+        count: 30,
+        size: 10,
+        opacity: 1,
+        images: ['https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/snow.png', 'https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/sock.png', 'https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/tree.png']
+      },
+      show: false
+    };
+  },
+  mounted() {
+    this.show = true;
+    //   setTimeout( () => {
+    //       this.show = false
+    //   }, 5000)
 
-        //   setTimeout( () => {
-        //       this.show = true
-        //   }, 10000)      
-    }
+    //   setTimeout( () => {
+    //       this.show = true
+    //   }, 10000)      
+  }
 });
 
 /***/ }),
@@ -11580,7 +11573,7 @@ process.umask = function() { return 0; };
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(1);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_414c85c3_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ccf1c548_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(14);
 function injectStyle (ssrContext) {
   __webpack_require__(8)
 }
@@ -11600,7 +11593,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_414c85c3_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ccf1c548_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -11621,7 +11614,7 @@ var content = __webpack_require__(9);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("6c3d68d5", content, true, {});
+var update = __webpack_require__(11)("75ab229d", content, true, {});
 
 /***/ }),
 /* 9 */
@@ -12095,7 +12088,7 @@ module.exports = function normalizeComponent (
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('let-it-snow',_vm._b({attrs:{"show":_vm.show}},'let-it-snow',_vm.snowConf,false)),_vm._v(" "),_vm._m(0)],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"wrapper"},[_c('div',{staticClass:"main"},[_c('div',{staticClass:"header"},[_c('h1',[_vm._v("Vue Let It Snow")]),_vm._v(" "),_c('h2',[_vm._v("Support Draw Multiple Images")]),_vm._v(" "),_c('p',{staticClass:"credit"},[_vm._v("Base on "),_c('a',{attrs:{"href":"https://github.com/peachananr/let_it_snow"}},[_vm._v("peachananr/let_it_snow")]),_vm._v(", "),_c('br'),_vm._v(" remove the jQuery dependence to support Vue and  update to support draw multiple images")]),_vm._v(" "),_c('div',{staticClass:"btns"},[_c('a',{staticClass:"reload btn",attrs:{"href":"https://github.com/bob-chen/vue-let-it-snow"}},[_vm._v("Download on Github")])])])]),_vm._v(" "),_c('a',{staticClass:"back",attrs:{"href":"https://github.com/bob-chen/vue-let-it-snow"}},[_vm._v("Back to The Repo")]),_vm._v(" "),_c('a',{attrs:{"href":"https://github.com/bob-chen/vue-let-it-snow"}},[_c('img',{staticStyle:{"position":"absolute","top":"0","right":"0","border":"0","z-index":"15"},attrs:{"src":"https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png","alt":"Fork me on GitHub"}})])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"wrapper"},[_c('div',{staticClass:"main"},[_c('div',{staticClass:"header"},[_c('h1',[_vm._v("Vue Let It Snow")]),_vm._v(" "),_c('h2',[_vm._v("Support Draw Multiple Images")]),_vm._v(" "),_c('p',{staticClass:"credit"},[_vm._v("Base on "),_c('a',{attrs:{"href":"https://github.com/peachananr/let_it_snow"}},[_vm._v("peachananr/let_it_snow")]),_vm._v(",\n                "),_c('br'),_vm._v(" Remove the dependance of jQuery, and support fall down multiple image.")]),_vm._v(" "),_c('div',{staticClass:"btns"},[_c('a',{staticClass:"reload btn",attrs:{"href":"https://github.com/bob-chen/vue-let-it-snow"}},[_vm._v("Download on Github")])])])]),_vm._v(" "),_c('a',{staticClass:"back",attrs:{"href":"https://github.com/bob-chen/vue-let-it-snow"}},[_vm._v("Back to The Repo")]),_vm._v(" "),_c('a',{attrs:{"href":"https://github.com/bob-chen/vue-let-it-snow"}},[_c('img',{staticStyle:{"position":"absolute","top":"0","right":"0","border":"0","z-index":"15"},attrs:{"src":"https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png","alt":"Fork me on GitHub"}})])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 

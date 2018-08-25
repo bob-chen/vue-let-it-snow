@@ -11,7 +11,8 @@
             <div class="header">
                 <h1>Vue Let It Snow</h1>
                 <h2>Support Draw Multiple Images</h2>
-                <p class="credit">Base on <a href="https://github.com/peachananr/let_it_snow">peachananr/let_it_snow</a>, <br /> remove the jQuery dependence to support Vue and  update to support draw multiple images</p>
+                <p class="credit">Base on <a href="https://github.com/peachananr/let_it_snow">peachananr/let_it_snow</a>,
+                <br /> Remove the dependance of jQuery, and support fall down multiple image.</p>
                 <div class="btns">
                     <a class="reload btn" href="https://github.com/bob-chen/vue-let-it-snow">Download on Github</a>
                 </div>
@@ -34,7 +35,7 @@ export default {
         snowConf: {
             windPower : 1,
             speed : 3,
-            count : 12,
+            count : 30,
             size : 10,
             opacity : 1,
             images: ['https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/snow.png',

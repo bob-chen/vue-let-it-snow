@@ -3,7 +3,15 @@ The vue component for [peachananr/let_it_snow](https://github.com/peachananr/let
 
 Remove the dependance of jQuery, and support fall down multiple image.
 
+[![Vue Let it Snow](https://raw.githubusercontent.com/bob-chen/vue-let-it-snow/master/demo/demo.jpg "Vue Let it Snow")](https://github.com/bob-chen/vue-let-it-snow)
+
 # Basic Usage
+
+Install:
+
+```
+npm i vue-let-it-snow
+```
 
 In `index.js`:
 
