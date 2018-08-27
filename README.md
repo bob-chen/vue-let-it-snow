@@ -14,7 +14,7 @@ Remove the dependance of jQuery, and support fall down multiple image.
 Install:
 
 ```
-npm i vue-let-it-snow
+npm install --save vue-let-it-snow
 ```
 
 In `index.js`:
