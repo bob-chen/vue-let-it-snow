@@ -62,8 +62,7 @@ export default {
         }
     },
     watch: {
-        show: function (newShow, oldShow) {
-            console.log(newShow, oldShow)
+        show: function (newShow) {
             if (newShow) {
                 this.myShow = true;
                 this.toHide = false;
